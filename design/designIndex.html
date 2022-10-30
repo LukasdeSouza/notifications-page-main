@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="designIndex.css">
+
+  <title>Frontend Mentor | Notifications page</title>
+
+</head>
+
+<body>
+  <div class="full-container">
+
+    <div class="notification-header">
+      <h3> Notifications <div class="number-of-notification" id="number-of-notification">7</div>
+      </h3>
+      <small class="mark-all-as-read" id="mark-all-as-read" onclick="markAsRead()"> Mark all as read </small>
+    </div>
+
+    <section class="section-notification">
+
+      <div class="div-notification" id="div-notification">
+        <img class="profile-picture" src="../assets/images/avatar-mark-webber.webp" alt="">
+        <p>
+          <b class='user-name'>Mark Webber</b> reacted to your recent post
+          <b class='link-to'>My first tournament today!</b>
+          <img id="point" src="../assets//images/svg (1).svg" alt="" width="10px">
+          <br><small class='time-posted'>1m ago</small>
+        </p>
+      </div>
+
+      <div class="div-notification" id="div-notification2">
+        <img class="profile-picture" src="../assets/images/avatar-angela-gray.webp" alt="">
+        <p>
+          <b class='user-name'>Angela Gray</b> followed you
+          <img id="point2" src="../assets//images/svg (1).svg" alt="" width="10px">
+          <br><small class='time-posted'>5m ago</small>
+        </p>
+      </div>
+
+      <div class="div-notification" id="div-notification3">
+        <img class="profile-picture" src="../assets/images/avatar-jacob-thompson.webp" alt="">
+        <p>
+          <b class='user-name'>Jacob Thompson</b>
+          has joined your group <b class='link-to'>Chess Club</b>
+          <img id="point3" src="../assets//images/svg (1).svg" alt="" width="10px">
+          <br><small class='time-posted'> 1 day ago</small>
+        </p>
+      </div>
+
+      <div class="div-notification" id="div-notification4">
+        <img class="profile-picture" src="../assets/images/avatar-rizky-hasanuddin.webp" alt="">
+        <p>
+          <b class='user-name'>Rizky Hasanuddin</b>
+          sent you a private message
+          <img id="point4" src="../assets//images/svg (1).svg" alt="" width="10px">
+          <br><small class='time-posted'> 5 days ago</small>
+        </p>
+      </div>
+      <div class="div-sub-notification">
+        <p>
+          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+          I'm already having lots of fun and improving my game.
+        </p>
+      </div>
+
+      <div class="div-notification" id="div-notification5">
+        <img class="profile-picture" src="../assets/images/avatar-kimberly-smith.webp" alt="">
+        <p>
+          <b class='user-name'>Kimberly Smith</b>
+          commented on your picture
+          <img id="point5" src="../assets//images/svg (1).svg" alt="" width="10px">
+          <br><small class='time-posted'> 1 week ago</small>
+        </p>
+        <img class='kimberly-post' src="../assets/images/image-chess.webp" alt="">
+      </div>
+
+      <div class="div-notification" id="div-notification6">
+        <img class="profile-picture" src="../assets/images/avatar-nathan-peterson.webp" alt="">
+        <p>
+          <b class='user-name'> Nathan Peterson</b> reacted to your recent post
+          <b class='link-to'> 5 end-game strategies</b>
+          <img id="point6" src="../assets//images/svg (1).svg" alt="" width="10px">
+          <br><small class='time-posted'>2 weeks ago</small>
+        </p>
+      </div>
+      <div class="div-notification" id="div-notification7">
+        <img class="profile-picture" src="../assets/images/avatar-anna-kim.webp" alt="">
+        <p>
+          <b class='user-name'>Anna Kim</b> left the group <b class='link-to'>Chess Club</b>
+          <img id="point7" src="../assets//images/svg (1).svg" alt="" width="10px">
+          <br><small class='time-posted'> 2 weeks ago</small>
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Lucas de Souza</a>.
+  </div>
+</body>
+<script src="./designScript.js"></script>
+
+</html>

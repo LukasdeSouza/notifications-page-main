@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;700;800&display=swap");
+
+body {
+  text-align: justify;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: hsl(210, 60%, 98%);
+}
+.full-container {
+  background-color: hsl(0, 0%, 100%);
+  margin: 0 auto;
+  width: 770px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(235, 235, 235, 1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(235, 235, 235, 1);
+  box-shadow: 10px 10px 5px 0px rgba(235, 235, 235, 1);
+  border-radius: 16px;
+}
+.mark-all-as-read {
+  cursor: pointer;
+  margin-top: 22px;
+  margin-right: 8px;
+  color: #000;
+  font-size: 16px;
+}
+
+.section-notification {
+  display: flex;
+  flex-direction: column;
+}
+.section-notification :hover {
+  background-color: hsl(211, 68%, 94%);
+}
+#point,
+#point2,
+#point3,
+#point4,
+#point5,
+#point6,
+#point7 {
+  margin-left: 4px;
+}
+.notification-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+}
+.notification-header small:hover {
+  color: rgb(22, 22, 109);
+}
+.notification-header h3 {
+  font-weight: 800;
+}
+.number-of-notification {
+  cursor: pointer;
+  position: absolute;
+  background-color: rgb(22, 22, 109);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 17px;
+  width: 32px;
+  height: 24px;
+  text-align: center;
+  margin-top: -24px;
+  margin-left: 126px;
+}
+
+.div-notification {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 90%;
+  justify-content: center;
+  border: 1px solid hsl(211, 68%, 94%);
+  padding: 16px;
+  margin-left: 22px;
+  margin-bottom: 8px;
+  background-color: hsl(210, 60%, 98%);
+  border-radius: 8px;
+}
+
+.div-notification p {
+  max-width: 626px;
+  width: 100%;
+  font-size: 16px;
+}
+.time-posted {
+  margin-left: 16px;
+}
+
+.div-sub-notification {
+  text-align: justify;
+  max-width: 698px;
+  width: 100%;
+  border: 1px solid rgb(236, 236, 236);
+  border-radius: 8px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  margin-left: 48px;
+  font-size: 16px;
+}
+
+.div-sub-notification p {
+  font-size: 16px;
+  padding: 8px;
+}
+.kimberly-post {
+  cursor: pointer;
+}
+
+.user-name {
+  margin-right: 4px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+.user-name:hover {
+  text-decoration: underline;
+  color: rgb(22, 22, 109);
+}
+.link-to:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(22, 22, 109);
+}
+.div-notification p b:hover {
+  color: hsl(224, 21%, 14%);
+}
+
+@media screen and (max-width: 375px) {
+  .full-container {
+    width: 375px;
+  }
+  .profile-picture {
+    width: 40px;
+  }
+
+  .notification-header h3 {
+    font-size: 14px;
+  }
+  .number-of-notification {
+    font-size: 12px;
+    width: 30px;
+    height: 20px;
+    margin-top: -16px;
+    margin-left: 96px;
+  }
+
+  .mark-all-as-read {
+    margin-right: 24px;
+    font-size: 12px;
+  }
+
+  .div-notification {
+    max-width: 75%;
+    width: 100%;
+    height: 50px;
+  }
+
+  .div-notification p {
+    font-size: 10px;
+  }
+
+  .div-sub-notification {
+    max-width: 76%;
+  }
+
+  .div-sub-notification p {
+    font-size: 12px;
+  }
+  .kimberly-post {
+    width: 40px;
+  }
+}
